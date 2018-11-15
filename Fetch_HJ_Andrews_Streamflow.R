@@ -5,12 +5,16 @@
 #@author: chinmay deval
 #
 # Downloads streamflow data hosted on the DataOne portal
+# # see https://www.dataone.org/
 #"""
 ##################################################################################
 
 
 ###############################clear environment and console######################
+rm(list = ls())
+cat("\014")
 
+###############################Load required packages###############################
 library(dataone)
 library(datapack)
 library(RCurl)
